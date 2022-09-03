@@ -49,6 +49,8 @@
 
 #if defined(ARDUINO)
 #include <Arduino.h>
+#else
+#include <stddef.h>
 #endif
 
 #include <inttypes.h>
